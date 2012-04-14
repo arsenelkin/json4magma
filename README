@@ -1,0 +1,10 @@
+Project: json4magma
+Author: Arsen Elkin
+Affiliation: University of Warwick
+Description: json.m provides an implementation of JSON parser in MAGMA.
+
+The main intrinsic is JSONParse(str::MonStgElt) -> .
+
+Objects are implemented as associative arrays;
+Arrays are are lists;
+null is implemented as an empty enumerated sequence [].
